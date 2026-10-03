@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>Toys API Documentation</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f4f4f9; color: #333; }
+        h1 { color: #4A90E2; }
+        .route-box { background: white; padding: 15px; margin-bottom: 15px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .method { font-weight: bold; padding: 4px 8px; border-radius: 3px; color: white; display: inline-block; }
+        .get { background-color: #61afff; }
+        .post { background-color: #49cc90; }
+        .put { background-color: #fca130; }
+        .delete { background-color: #f93e3e; }
+        .url { font-family: monospace; font-size: 1.1em; margin-right: 10px; }
+    </style>
+</head>
+<body>
+    <div class="route-box"><span class="method get">GET</span> <span class="url">/toys</span><p>שליפת כל הצעצועים במערכת (10 בעמוד).</p></div>
+    <div class="route-box"><span class="method get">GET</span> <span class="url">/toys/prices?min=10&max=40</span><p>שליפת צעצועים לפי טווח מחירים.</p></div>
+    <div class="route-box"><span class="method post">POST</span> <span class="url">/users</span><p>הרשמת משתמש חדש.</p></div>
+</body>
+</html>
